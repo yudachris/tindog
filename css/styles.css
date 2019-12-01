@@ -140,15 +140,16 @@ h3{
     color:white;
     background-color: #FF4c68;
     text-align: center;
-    padding:10% 20% 5%;
+    padding:10% 20% 11%;
 }
 
 #cta h3{
-    font-size: 4rem;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 #cta .btn{
-    margin:5% 10px;
+    margin:6% 10px 0;
 }
 
 /* footer */
@@ -159,8 +160,8 @@ h3{
     padding: 5% 0 1%;
 }
 
-#footer a{
-    margin:10px 10px;
+.footer-fa{
+    margin:20px 10px;
     text-decoration: none;
     color: rgb(78, 76, 76);
 }
