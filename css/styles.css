@@ -50,13 +50,14 @@ h3{
 }
 
 .container-fluid{
-    padding:3% 15%;
+    padding:3% 15% 10%;
 }
 
 .iphone img{
-    z-index:1;
     width:60%;
     transform: rotate(25deg);
+    position:absolute;
+    right:30%;
 }
 
 /* download button*/
@@ -64,9 +65,13 @@ h3{
     margin:5% 3% 5% 0;
 }
 
+/* features section*/
+
 #features{
     text-align: center;
     padding:7% 15%;
+    background-color:white;
+    position:relative;
 }
 
 #features p{
@@ -127,4 +132,62 @@ h3{
 
 .pricing-col{
     padding: 3% 2%;
+}
+
+/* call to action section */
+
+#cta {
+    color:white;
+    background-color: #FF4c68;
+    text-align: center;
+    padding:10% 20% 5%;
+}
+
+#cta h3{
+    font-size: 4rem;
+}
+
+#cta .btn{
+    margin:5% 10px;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: white;
+    padding: 5% 0 1%;
+}
+
+#footer a{
+    margin:10px 10px;
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+}
+
+/* media queries */
+
+@media (max-width:991px) {
+    .iphone img{
+        position:static;
+        transform:rotate(0);
+        width:50%;
+        margin-top:5%;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    #cta h3{
+        font-size: 3rem;
+    }
+
+    #cta .btn{
+        margin:10% 10px;
+    }
+
+    #footer {
+        padding: 6% 0 3%;
+    }
 }
